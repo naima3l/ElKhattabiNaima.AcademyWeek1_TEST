@@ -1,0 +1,20 @@
+El Khattabi Naima		24/09/2021
+
+1)	-Nei VALUE TYPE la quantità di memoria che bisogna allocare è già nota a tempo di compilazione; 
+	 il dato è salvato nello stack e inoltre contengono sempre un valore e possono anche essere nullabili (es.struct,enum, tipi primitivi)
+
+	-Nei REFERNCE TYPE la quantità di memoria che bisogna allocare può cambiare durante l'esecuzione del programma;
+	 il valore si trova nella coda HEAP, e lo stack continene il puntatore all'heap.
+
+	Quindi la differenza principale tra i 2 è che nei value type la memoria allocata non può essere cambiata a differenza dei refernce type.
+
+2) Gli elementi che .Net mette a disposizione sono :
+		-WPF, Windows Forms, permette di accedere ai servizi web, ADO
+		-Common Language Specification
+		-Framework Class Library
+		-Visual Studio
+		-Common Language Runtime
+
+3) .NET Framework, è orientato allo sviluppo di applicazioni Windows oriented
+   .NET Core, viene utilizzato in particolare per realizzare applicazioni desktop, web-based e cosa importante è che ingloba quello che è 
+    il framework (es. WPF), però è multipiattaforma.
